@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>DocuGreen | Impresión, señalización y productos personalizados en Santo Domingo</title>
+  <meta name="description" content="DocuGreen SRL: impresión formato ancho, sublimación, rotulación, diseño gráfico y letreros para negocios y proyectos en Santo Domingo, República Dominicana.">
+  <meta name="theme-color" content="#F3F3EE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DocuGreen | Las ideas toman forma">
+  <meta property="og:description" content="Impresión, señalización y productos personalizados para darle vida a lo que imaginas.">
+  <meta property="og:image" content="images/ilustrativas/hero-center.jpg">
+  <meta property="og:locale" content="es_DO">
+
+  <!-- Fuentes autoalojadas (sin CDN) -->
+  <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="images/ilustrativas/hero-center.jpg" fetchpriority="high">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Sprite de flechas (único icono del sitio) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <!-- ============ 01. NAVIGATION ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__bar">
+      <a class="logo" href="#inicio" aria-label="DocuGreen, ir al inicio">
+        <img src="images/logo-docugreen.png" alt="DocuGreen SRL" width="800" height="393" decoding="async">
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+
+      <a class="btn btn--ink btn--sm nav__cta" href="#contacto">
+        <span class="btn__label">Contacto</span>
+        <span class="btn__icon" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg><svg class="ico"><use href="#i-arrow"/></svg></span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav__toggle-text" data-open="Menú" data-close="Cerrar">Menú</span>
+        <span class="nav__toggle-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menú mobile -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__nav" aria-label="Menú móvil">
+      <a href="#inicio" style="--i:0">Inicio</a>
+      <a href="#servicios" style="--i:1">Servicios</a>
+      <a href="#proyectos" style="--i:2">Proyectos</a>
+      <a href="#nosotros" style="--i:3">Nosotros</a>
+      <a href="#contacto" style="--i:4">Contacto</a>
+    </nav>
+    <div class="menu__foot" style="--i:5">
+      <a class="btn btn--lime" href="#contacto">
+        <span class="btn__label">Solicitar cotización</span>
+        <span class="btn__icon" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg><svg class="ico"><use href="#i-arrow"/></svg></span>
+      </a>
+      <p class="menu__addr">DocuGreen SRL<br>C. Hermanas Roque Martínez 168-1,<br>Santo Domingo</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ 02. HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__grid">
+
+        <div class="hero__copy">
+          <h1 class="hero__title split" id="hero-title" aria-label="Las ideas toman forma.">Las <span class="inline-img" aria-hidden="true"><img src="images/hero.jpg" alt="" width="2400" height="900" decoding="async"></span> ideas<br class="d-only"> toman <em class="outline">forma.</em></h1>
+
+          <p class="hero__sub" data-reveal style="--d:450">Impresión, señalización y productos personalizados para darle vida a lo que imaginas.</p>
+
+          <div class="hero__actions" data-reveal style="--d:600">
+            <a class="btn btn--ghost" href="#servicios">
+              <span class="btn__label">Explorar servicios</span>
+              <span class="btn__icon" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg><svg class="ico"><use href="#i-arrow"/></svg></span>
+            </a>
+            <a class="btn btn--ink" href="#contacto">
+              <span class="btn__label">Solicitar cotización</span>
+              <span class="btn__icon" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg><svg class="ico"><use href="#i-arrow"/></svg></span>
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero__fig hero__fig--left" data-reveal="img" style="--d:350">
+          <div class="media"><img src="images/ilustrativas/hero-left.jpg" alt="Rollos de vinil de colores y formas recortadas sobre una mesa de trabajo" width="864" height="1152" decoding="async"></div>
+          <figcaption class="chip">Viniles</figcaption>
+        </figure>
+
+        <figure class="hero__fig hero__fig--center" data-reveal="img" style="--d:150">
+          <div class="media"><img src="images/ilustrativas/hero-center.jpg" alt="Banner de tela impreso en gran formato con formas geométricas verdes, montado sobre un soporte en un taller luminoso" width="1152" height="864" fetchpriority="high" decoding="async"></div>
+          <figcaption class="chip">Banners de gran formato</figcaption>
+          <span class="reg" aria-hidden="true"></span>
+        </figure>
+
+        <figure class="hero__fig hero__fig--right" data-reveal="img" style="--d:500">
+          <div class="media"><img src="images/ilustrativas/hero-right.jpg" alt="Dos exhibidores roll-up impresos en una sala luminosa" width="1152" height="864" decoding="async"></div>
+          <figcaption class="chip">Exhibidores</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ============ 03. SERVICIOS ============ -->
+    <section class="services" id="servicios" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 class="display services__title split" id="services-title">Todo lo que necesitas para hacerte <em class="hl">notar.</em></h2>
+
+        <div class="services__layout">
+          <ol class="svc-list">
+
+            <li class="svc is-active">
+              <button class="svc__btn" type="button" id="svc-btn-0" aria-expanded="true" aria-controls="svc-panel-0">
+                <span class="svc__num">01</span>
+                <span class="svc__name">Impresión formato ancho</span>
+                <span class="svc__arrow" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </button>
+              <div class="svc__panel" id="svc-panel-0" role="region" aria-labelledby="svc-btn-0">
+                <div class="svc__panel-in">
+                  <p>Imágenes plasmadas con equipos de alta eficiencia, en los mejores materiales para cada caso.</p>
+                  <div class="svc__thumb media"><img src="images/taller-roland.jpg" alt="Cabezal de una máquina de corte e impresión trabajando sobre vinil amarillo" width="1800" height="675" loading="lazy" decoding="async"></div>
+                  <a class="link-arrow" href="#contacto" data-service="ancho">Cotizar este servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+              </div>
+            </li>
+
+            <li class="svc">
+              <button class="svc__btn" type="button" id="svc-btn-1" aria-expanded="false" aria-controls="svc-panel-1">
+                <span class="svc__num">02</span>
+                <span class="svc__name">Sublimación</span>
+                <span class="svc__arrow" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </button>
+              <div class="svc__panel" id="svc-panel-1" role="region" aria-labelledby="svc-btn-1">
+                <div class="svc__panel-in">
+                  <p>Transferimos tu diseño con calor para crear artículos y prendas únicas.</p>
+                  <div class="svc__thumb media"><img src="images/tazas.jpg" alt="Dos tazas metálicas, una plateada y otra dorada, con logotipo impreso" width="1000" height="660" loading="lazy" decoding="async"></div>
+                  <a class="link-arrow" href="#contacto" data-service="sublimacion">Cotizar este servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+              </div>
+            </li>
+
+            <li class="svc">
+              <button class="svc__btn" type="button" id="svc-btn-2" aria-expanded="false" aria-controls="svc-panel-2">
+                <span class="svc__num">03</span>
+                <span class="svc__name">Rotulación</span>
+                <span class="svc__arrow" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </button>
+              <div class="svc__panel" id="svc-panel-2" role="region" aria-labelledby="svc-btn-2">
+                <div class="svc__panel-in">
+                  <p>Vinil adhesivo aplicado sobre cristales, acrílicos, paredes, vehículos y más.</p>
+                  <div class="svc__thumb media"><img src="images/ilustrativas/hero-left.jpg" alt="Rollos de vinil de colores y formas recortadas sobre una mesa de trabajo" width="864" height="1152" loading="lazy" decoding="async"></div>
+                  <a class="link-arrow" href="#contacto" data-service="rotulacion">Cotizar este servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+              </div>
+            </li>
+
+            <li class="svc">
+              <button class="svc__btn" type="button" id="svc-btn-3" aria-expanded="false" aria-controls="svc-panel-3">
+                <span class="svc__num">04</span>
+                <span class="svc__name">Diseño gráfico</span>
+                <span class="svc__arrow" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </button>
+              <div class="svc__panel" id="svc-panel-3" role="region" aria-labelledby="svc-btn-3">
+                <div class="svc__panel-in">
+                  <p>Creamos tus artes, desde la idea hasta verla hecha realidad.</p>
+                  <div class="svc__thumb media"><img src="images/ilustrativas/about.jpg" alt="Manos sosteniendo un abanico de muestras de papel y color sobre una mesa de trabajo" width="864" height="1152" loading="lazy" decoding="async"></div>
+                  <a class="link-arrow" href="#contacto" data-service="diseno">Cotizar este servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+              </div>
+            </li>
+
+            <li class="svc">
+              <button class="svc__btn" type="button" id="svc-btn-4" aria-expanded="false" aria-controls="svc-panel-4">
+                <span class="svc__num">05</span>
+                <span class="svc__name">Letreros</span>
+                <span class="svc__arrow" aria-hidden="true"><svg class="ico"><use href="#i-arrow-ur"/></svg></span>
+              </button>
+              <div class="svc__panel" id="svc-panel-4" role="region" aria-labelledby="svc-btn-4">
+                <div class="svc__panel-in">
+                  <p>La forma en que tu negocio se identifica y muestra su imagen, en materiales armonizados en forma y color.</p>
+                  <div class="svc__thumb media"><img src="images/letreros.jpg" alt="Letrero en relieve con logotipo montado sobre una pared de azulejos negros" width="1000" height="660" loading="lazy" decoding="async"></div>
+                  <a class="link-arrow" href="#contacto" data-service="letreros">Cotizar este servicio <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+              </div>
+            </li>
+
+          </ol>
+
+          <!-- Escenario de imágenes (solo desktop) -->
+          <div class="svc-stage" aria-hidden="true">
+            <div class="svc-stage__frame">
+              <img class="svc-stage__img is-active" src="images/taller-roland.jpg" alt="" width="1800" height="675" loading="lazy" decoding="async" style="object-position:34% 50%">
+              <img class="svc-stage__img" src="images/tazas.jpg" alt="" width="1000" height="660" loading="lazy" decoding="async">
+              <img class="svc-stage__img" src="images/ilustrativas/hero-left.jpg" alt="" width="864" height="1152" loading="lazy" decoding="async">
+              <img class="svc-stage__img" src="images/ilustrativas/about.jpg" alt="" width="864" height="1152" loading="lazy" decoding="async">
+              <img class="svc-stage__img" src="images/letreros.jpg" alt="" width="1000" height="660" loading="lazy" decoding="async">
+            </div>
+            <p class="svc-stage__cap"><span class="svc-stage__num" id="stage-num">01</span><span id="stage-name">Impresión formato ancho</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04. FEATURED WORK ============
+         Cada pieza usa una foto real de DocuGreen (carpeta /images).
+         Para reemplazar una imagen: cambia el atributo src del <img> del item
+         (o sobrescribe el archivo con el mismo nombre). Ajusta width/height si cambia la proporción.
+    -->
+    <section class="work" id="proyectos" aria-labelledby="work-title">
+      <div class="wrap">
+        <h2 class="display work__title split" id="work-title">El resultado habla <em class="outline">por sí solo.</em></h2>
+
+        <div class="work__grid">
+
+          <figure class="work__item w1" data-reveal="img" style="--d:0">
+            <div class="work__frame">
+              <div class="media"><img src="images/letreros.jpg" alt="Letrero en relieve con logotipo y nombre del cliente sobre una pared de azulejos negros" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Señalización</span><p>Letrero en relieve para pared interior.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">01</span><span class="work__ttl">Letrero de pared</span></figcaption>
+          </figure>
+
+          <figure class="work__item w2" data-reveal="img" style="--d:120">
+            <div class="work__frame">
+              <div class="media"><img src="images/jarras.jpg" alt="Dos jarras de vidrio con tapa metálica personalizadas con textos en negro y dorado" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Personalizados</span><p>Jarras de vidrio impresas para celebraciones.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">02</span><span class="work__ttl">Jarras para eventos</span></figcaption>
+          </figure>
+
+          <figure class="work__item w3" data-reveal="img" style="--d:0">
+            <div class="work__frame">
+              <div class="media"><img src="images/tazas.jpg" alt="Dos tazas metálicas, una plateada y otra dorada, con logotipo impreso" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Personalizados</span><p>Tazas metálicas con logotipo.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">03</span><span class="work__ttl">Tazas metálicas</span></figcaption>
+          </figure>
+
+          <figure class="work__item w4" data-reveal="img" style="--d:120">
+            <div class="work__frame">
+              <div class="media"><img src="images/mousepad.jpg" alt="Mousepad con fotografía y texto personalizado sobre una mesa de madera clara" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Personalizados</span><p>Mousepad con foto y mensaje a pedido.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">04</span><span class="work__ttl">Mousepad con foto</span></figcaption>
+          </figure>
+
+          <div class="work__note" data-reveal style="--d:0">
+            <span class="pills" aria-hidden="true"><i></i><i></i><i></i></span>
+            <p>Una selección de piezas producidas por DocuGreen.</p>
+          </div>
+
+          <figure class="work__item w5" data-reveal="img" style="--d:0">
+            <div class="work__frame">
+              <div class="media"><img src="images/thermos.jpg" alt="Termos y botellas de acero inoxidable con logotipo y texto impreso" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Promocionales</span><p>Termos y botellas con impresión en acero.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">05</span><span class="work__ttl">Termos y botellas</span></figcaption>
+          </figure>
+
+          <figure class="work__item w6" data-reveal="img" style="--d:120">
+            <div class="work__frame">
+              <div class="media"><img src="images/portavasos.jpg" alt="Portavasos transparentes con el logotipo de DocuGreen impreso, junto a una planta" width="1000" height="660" loading="lazy" decoding="async"></div>
+              <div class="work__info"><span class="label">Promocionales</span><p>Portavasos con logotipo para oficina.</p></div>
+            </div>
+            <figcaption class="work__cap"><span class="work__idx">06</span><span class="work__ttl">Portavasos de oficina</span></figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05. SOBRE DOCUGREEN ============ -->
+    <section class="about" id="nosotros" aria-labelledby="about-title">
+      <div class="wrap">
+        <h2 class="display-xl about__title split" id="about-title">Convertimos ideas en piezas que <em class="hl-forest">se ven</em>, <em class="hl-forest">se sienten</em> y <em class="outline">permanecen.</em></h2>
+
+        <div class="about__grid">
+          <div class="about__text" data-reveal>
+            <p class="lead">DOCUGREEN nace del deseo de un grupo de personas de agradar a Dios con la labor de sus manos.</p>
+            <p class="about__p">Nuestro nombre habla del manejo limpio del documento. Existimos para dar testimonio de impresión acorde con la creación.</p>
+          </div>
+
+          <figure class="about__fig about__fig--main" data-reveal="img" style="--d:100">
+            <span class="pills pills--lg" aria-hidden="true"><i></i><i></i><i></i></span>
+            <div class="media"><img src="images/ilustrativas/about.jpg" alt="Manos sosteniendo un abanico de muestras de papel y color sobre una mesa de trabajo" width="864" height="1152" loading="lazy" decoding="async"></div>
+          </figure>
+
+          <figure class="about__fig about__fig--aside" data-reveal="img" style="--d:250">
+            <div class="media"><img src="images/taller-impresion.jpg" alt="Cabezal de una impresora en movimiento sobre una hoja con muestras de color" width="1100" height="1115" loading="lazy" decoding="async"></div>
+            <figcaption class="about__cap">El taller en movimiento.</figcaption>
+          </figure>
+        </div>
+
+        <div class="about__facts">
+          <section class="fact" data-reveal aria-labelledby="f-mision">
+            <h3 class="fact__label" id="f-mision">Misión</h3>
+            <p>Dedicados a la impresión en formato ancho, letreros y personalizaciones, trabajamos con integridad total para agradar a nuestros clientes, hacer crecer a nuestro equipo y agradar a Dios.</p>
+          </section>
+          <section class="fact" data-reveal style="--d:120" aria-labelledby="f-vision">
+            <h3 class="fact__label" id="f-vision">Visión</h3>
+            <p>Servir como si fuera para Dios, dar un sustento digno a nuestras familias e impactar la vida de nuestros clientes, para que el resultado final sea siempre una sonrisa.</p>
+          </section>
+          <section class="fact" data-reveal style="--d:240" aria-labelledby="f-valores">
+            <h3 class="fact__label" id="f-valores">Valores</h3>
+            <ul class="fact__values">
+              <li>Equidad</li>
+              <li>Honestidad</li>
+              <li>Compromiso</li>
+              <li>Pasión</li>
+              <li>Respeto</li>
+              <li>Profesionalidad</li>
+              <li>Actitud y deseo de servicio</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07. EQUIPO (imagen ilustrativa: reemplázala por una foto real en images/ilustrativas/equipo.jpg) ============ -->
+    <section class="cta" id="cta" aria-labelledby="cta-title">
+      <span class="crop crop--tl" aria-hidden="true"></span>
+      <span class="crop crop--tr" aria-hidden="true"></span>
+      <span class="crop crop--bl" aria-hidden="true"></span>
+      <span class="crop crop--br" aria-hidden="true"></span>
+
+      <div class="wrap cta__inner">
+        <div class="cta__text">
+          <h2 class="display-xl cta__title split" id="cta-title" aria-label="DOCUGREEN">DOCU<em class="hl-lime">GREEN</em></h2>
+          <p class="cta__p" data-reveal style="--d:300">Somos un equipo en Santo Domingo dedicado a la impresión formato ancho, la sublimación, la rotulación, el diseño gráfico y los letreros. Trabajamos con integridad, calidad y compromiso para que cada pieza cumpla o supere lo que imaginas.</p>
+        </div>
+
+        <figure class="cta__fig" data-reveal="img" style="--d:150">
+          <div class="media"><img src="images/ilustrativas/equipo.jpg" alt="Equipo de trabajo de pie, en fila, frente a una impresora de gran formato (imagen ilustrativa)" width="1152" height="864" loading="lazy" decoding="async"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 08. CONTACTO ============ -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap contact__grid">
+
+        <div class="contact__info">
+          <h2 class="display contact__title split" id="contact-title">Escríbenos.</h2>
+
+          <address class="contact__addr" data-reveal style="--d:200">
+            <strong>DocuGreen SRL</strong>
+            C. Hermanas Roque Martínez 168-1,<br>
+            Santo Domingo<br>
+            docugreen.com.do
+          </address>
+
+          <ul class="channels" data-reveal style="--d:300">
+            <li><a class="channel" href="#contacto-form" data-channel="whatsapp" target="_blank" rel="noopener"><span>WhatsApp</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a></li>
+            <li><a class="channel" href="#contacto-form" data-channel="instagram" target="_blank" rel="noopener"><span>Instagram</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a></li>
+            <li><a class="channel" href="#contacto-form" data-channel="email"><span>Email</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-ur"/></svg></a></li>
+          </ul>
+        </div>
+
+        <div class="contact__form" id="contacto-form" data-reveal style="--d:150">
+          <form class="form" id="quote-form" novalidate aria-describedby="form-status">
+
+            <div class="field" data-field="name">
+              <label for="f-name">Nombre</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+              <p class="field__error" id="e-name" aria-live="polite"></p>
+            </div>
+
+            <div class="field" data-field="email">
+              <label for="f-email">Correo electrónico</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email">
+              <p class="field__error" id="e-email" aria-live="polite"></p>
+            </div>
+
+            <div class="field" data-field="phone">
+              <label for="f-phone">Teléfono / WhatsApp</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="e-phone">
+              <p class="field__error" id="e-phone" aria-live="polite"></p>
+            </div>
+
+            <div class="field" data-field="service">
+              <label for="f-service">Tipo de servicio</label>
+              <div class="select">
+                <select id="f-service" name="service" required aria-describedby="e-service">
+                  <option value="" selected disabled>Selecciona una opción</option>
+                  <option value="ancho">Impresión formato ancho</option>
+                  <option value="sublimacion">Sublimación</option>
+                  <option value="rotulacion">Rotulación</option>
+                  <option value="diseno">Diseño gráfico</option>
+                  <option value="letreros">Letreros</option>
+                  <option value="otro">Otro / Aún no lo sé</option>
+                </select>
+                <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </div>
+              <p class="field__error" id="e-service" aria-live="polite"></p>
+            </div>
+
+            <div class="field field--full" data-field="message">
+              <label for="f-message">Cuéntanos sobre tu proyecto</label>
+              <textarea id="f-message" name="message" rows="5" required aria-describedby="e-message"></textarea>
+              <p class="field__error" id="e-message" aria-live="polite"></p>
+            </div>
+
+            <!-- Campo trampa para bots: debe quedar vacío -->
+            <div class="hp" aria-hidden="true"><label>No llenar<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+            <div class="form__foot field--full">
+              <button class="btn btn--ink btn--lg" type="submit">
+                <span class="btn__label" data-default="Enviar solicitud" data-loading="Enviando">Enviar solicitud</span>
+                <span class="btn__icon" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg><svg class="ico"><use href="#i-arrow"/></svg></span>
+              </button>
+              <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+
+          <div class="form__success" id="form-success" tabindex="-1" hidden>
+            <span class="pills" aria-hidden="true"><i></i><i></i><i></i></span>
+            <h3 class="form__success-title">Gracias<span id="success-name"></span>.</h3>
+            <p>Tu solicitud está lista. Te responderemos lo antes posible para definir los detalles de tu proyecto.</p>
+            <button class="link-arrow" type="button" id="form-reset">Enviar otra solicitud <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 09. FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__top">
+      <div class="footer__col">
+        <h2 class="footer__h">Navegación</h2>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__h">Servicios</h2>
+        <ul>
+          <li><a href="#servicios">Impresión formato ancho</a></li>
+          <li><a href="#servicios">Sublimación</a></li>
+          <li><a href="#servicios">Rotulación</a></li>
+          <li><a href="#servicios">Diseño gráfico</a></li>
+          <li><a href="#servicios">Letreros</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2 class="footer__h">Contacto</h2>
+        <ul>
+          <li>DocuGreen SRL</li>
+          <li>C. Hermanas Roque Martínez 168-1, Santo Domingo</li>
+          <li>docugreen.com.do</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="wrap footer__base">
+      <p>© <span id="year">2026</span> DocuGreen SRL. Todos los derechos reservados.</p>    </div>
+  </footer>
+</body>
+</html>
